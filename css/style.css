@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+ }
+ body{
+    font-family: 'Red Hat Display',sans-serif;
+    min-height: 100vh;
+    background-image:url(imeges/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+ }
+ .container{
+    position: absolute ;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+     max-width: 450px;
+     background-color: white;
+     border-radius: 20px;
+     overflow: hidden;
+ }
+ .content{
+    text-align: center;
+
+    padding: 8%;
+
+ }
+ .content h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 32 px;
+ }
+ .content p{
+    color: rgb(112, 108, 108);
+    margin-bottom: 25px;
+ }
+ .music-box{
+    align-items: center;
+background-color: hsl(225, 100%, 98%);
+border-radius: 12px;
+display: flex;
+justify-content: space-between;
+padding: 3%;
+ }
+ .left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+ }
+ .in{
+    margin-left: 20px;
+    top: 5px;
+
+ }
+ .in h5{
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+ }
+ .in p{
+    font-weight: 900;
+    font-size: 14px;
+    color: rgb(112, 108, 108);
+ }
+ .music-box {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+
+ }
+ .music-box a:hover{
+    text-decoration: none;
+    color:  hsl(245, 53%, 45%) ;
+    transition: 3s ;
+ }
+ .pro-btn{
+    color: white;
+    display: block;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 4% 0;
+    margin: 30px 0;
+    border-radius: 12px;
+ }
+ .pro-btn:hover{
+    background-color: hsl(224, 23%, 55%) ;
+ }
+ .cancel-btn{
+    color: rgb(112, 108, 108) ;
+    font-weight: 900;
+    text-decoration: none;
+ }
+ .cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+ }
